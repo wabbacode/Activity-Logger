@@ -1,22 +1,12 @@
-/your-repo-name
+/Activity-Logger
 │
-├── /src                    # C# project source code (Visual Studio solution)
-│   ├── /YourProject         # Your C# project folder
-│   │   ├── Program.cs       # Example C# code file
-│   │   └── OtherFiles.cs    # Other C# files
-│   └── YourProject.sln      # Visual Studio solution file
-│
-├── /scripts                 # Python scripts
-│   ├── script1.py           # Example Python script
-│   ├── script2.py           # Another Python script
-│   └── requirements.txt     # Python dependencies if needed
-│
-├── /bin                     # Build output (executables)
-│   └── YourExecutable.exe   # The C# executable or built files
-│
-├── /assets                  # Static files, such as lst and config files
-│   ├── file1.lst            # The lst file
-│   ├── config.json          # The config file
-│   └── README.md            # Optional: Document the usage or setup
-│
-└── README.md                # Repository overview and instructions
+└── /bin                     	# Build output (executable)
+    ├── /database         		# Create this Folder manually
+    │   ├── WORK.db       		# SQLite3 Databases
+    │   └── STUDYDING.db    	# Collecting Data
+    ├── Activity-Logger.exe     # The C# executable
+    ├── pypath.config         	# Path to Python3
+	├── activities.lst 			# Change and add activities here
+    ├── database_writer.py    	# Helper script for application
+    ├── db_reader_main.py     	# Run this script to read all databases
+    └── database_reader.py     	# Helper to Reader_main.py

@@ -95,7 +95,7 @@ namespace ActivityLog_1._0
         }
         void db_update(string sArgs)                                    // Update Database
         {
-            System.Diagnostics.Process.Start(python3, pyScript + " " + sArgs);
+            System.Diagnostics.Process.Start(python3, pyScript + " " + sArgs);  // BUG: this can't take paths right now with spaces as it will think of it as more arguments
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
